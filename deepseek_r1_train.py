@@ -119,7 +119,7 @@ if __name__ == '__main__':
         max_grad_norm=0.1,
         log_on_each_node=False,
         use_vllm=False,
-        report_to="tensorboard"
+        report_to="tensorboard"      #已经cd到 output目录下    ，控制台 输入：tensorboard --logdir runs/
     )
     
     trainer = GRPOTrainer(
