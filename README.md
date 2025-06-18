@@ -33,3 +33,6 @@ rl方法：GRPO\
 ## rl二阶段(通用对齐的rl)
 
 通用对齐RL（RLHF）：融入人类偏好奖励模型（Helpfulness & Harmlessness），确保模型在开放域任务中的安全性与实用性。
+
+## 在测试脚本test的运行
+终端 命令： vllm serve Qwen/Qwen2.5-1.5B-Instruct --port 
